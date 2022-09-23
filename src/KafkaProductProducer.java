@@ -24,7 +24,7 @@ public class KafkaProductProducer {
         producer = new KafkaProducer(props);
         Scanner input = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter model name: ");
+            System.out.println("Enter the model name: ");
             String model = input.next();
             System.out.println("Enter the released year: ");
             String release_year = input.next();
